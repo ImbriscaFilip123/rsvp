@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travering the dom 2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+          <h1>RSVP</h1>
+          <p>A Mycodeschool App</p>
+          <div  class="form-container" id="registrar">
+            <input type="text" name="name" placeholder="Invite Someone">
+            <button  name="submit" value="submit" class="submit-button">Submit</button>
+          </div>
+        </header>
+            
+        <div class="main">	
+          <h2>Invitees</h2>
+          <div><label>Hide those who haven't responded</label><input type="checkbox" class="checkboxHide"></div>
+          <ul id="invitedList">
+            <li><span>test2</span><label>Confirmed<input type="checkbox" class="checkbox"></label><button class="editBtn">edit</button><button class="remove-button">remove</button></li>
+            <li><span>test4</span><label>Confirmed<input type="checkbox" class="checkbox"></label><button class="editBtn">edit</button><button class="remove-button">remove</button></li>
+            <li><span>test8</span><label>Confirmed<input type="checkbox" class="checkbox"></label><button class="editBtn">edit</button><button class="remove-button">remove</button></li></ul>	
+        </div>
+      </div>
+
+      
+    <script src="script.js"></script>
+</body>
+</html>
